@@ -1,0 +1,119 @@
+.Dash_container{
+    background-color: white;
+    height: max-content;
+    width: auto;
+    margin: 10px;
+     overflow-y: scroll;
+    
+}
+
+.box{
+    width: 100%;
+}
+
+
+.head_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.head_container input{
+    border: none;
+    padding: 10px;
+    background-color: rgb(227, 227, 227);
+    border-radius: 2px;
+}
+
+
+.head_container button {
+    padding: 10px;border: none
+    ;
+    border-radius: 2px;
+    background-color:aqua ;
+    cursor: pointer;
+}
+
+.head_container button:hover {
+    background-color:rgb(31, 83, 83) ;
+    color: white;
+}
+
+
+
+.head_container .div_1{
+    display: flex;
+    gap: 10px;
+}
+
+.head_container .div_1 select{
+    border: none;
+    background-color: rgb(227, 227, 227);
+    padding: 0 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 4px;
+   
+}
+
+table th,td{
+        border: 0.1px solid rgb(243, 243, 243);
+        max-height: 20px;
+        margin: 10px;   
+          font-family: "Montserrat", sans-serif;
+        
+}
+
+
+thead tr  th{
+    height:40px ;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+tbody tr td{
+    height:40px;
+}
+
+
+thead tr  th:nth-child(1){
+    width: 10%;
+}
+
+thead tr  th:nth-child(2){
+    width: 6%;
+}
+
+thead tr  th:nth-child(3){
+    width: 15%;
+}
+
+
+td span:nth-child(1){
+    color: brown;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+}
+td span:nth-child(2){
+    color: rgb(0, 0, 0);
+    margin: 0 2px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+}
+
+

@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.box{
+        align-items: center;
+}
+
+.header select{
+    height: 30px;
+    border: none;
+        border-radius: 5px;
+        padding: 0 5px;
+        cursor: pointer;
+}
+
+.header_content span:hover{
+    cursor: pointer;
+}
+
+.header select:focus{
+    outline: none;
+
+}
+
+
+.header_content{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+
+.header h3{
+    margin: 20px;
+}
